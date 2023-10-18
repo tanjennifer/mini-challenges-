@@ -1,0 +1,77 @@
+.machine {
+    background-color: pink;
+    padding: 10px;
+    width: 100px;
+    
+}
+
+
+.top-form, .main-form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+};
+
+
+
+
+
+
+.circle {
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey;
+    border: 1px solid grey;
+}
+
+
+
+
+
+.light-bulb {
+    width: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #595857;
+    color: white;
+  
+}
+
+
+
+.mybutton {
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: #85807f;
+    font-weight: bold;
+    width: 100px;
+}
+
+
+label, input {
+    margin: 10px;
+}
+
+
+.coin-container {
+    display: flex;
+}
+
+.coin {
+    border-radius: 50%;
+    background-color: grey;
+    border: 1px solid #4b4d4b;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Penny {
+    background-color: orange;
+}
+

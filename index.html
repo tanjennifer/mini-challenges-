@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Challenges</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>mini challenges</h1>
+      <section class="top-form">
+        <h2>vending machine</h2>
+        <p class="total">Total: $ 0.00</p>
+        <button class="machine cola">Lime Cola $2.00</button>
+        <button class="machine peanuts">Saled Peanuts $3.00</button>
+        <button class="machine chocolate">Chocolate Bar $4.00</button>
+        <button class="machine gummies">Fruit Gummies $6.00</button>
+      </section>
+      <section>
+        <h2>make money</h2>
+
+        <form class="main-form">
+            <label for="count">How Many?</label>
+            <input type="number" id="count" min="1" required>
+            
+            <label for="coinType">Which Coin?</label>
+            <select id="coinType" required>
+                <option value="Penny">Penny</option>
+                <option value="Nickel">Nickel</option>
+                <option value="Dime">Dime</option>
+                <option value="Quarter">Quarter</option>
+            </select>
+            
+            <button class="mybutton">Make Money!</button>
+          
+        </form>
+        <p id="totalAmount"></p>
+<div class="coin-container"></div>
+
+     
+
+
+      </section>
+      <section class="bottom-form">
+        <h2>light bulb</h2>
+        <div class="light-bulb">Light Bulb</div>
+        <div class="button-container">
+            <button class="mybutton on" id="on">On</button>
+            <button class="mybutton off" id="off">Off</button>
+            <button class="mybutton toggle" id="toggle">Toggle</button>
+            <button class="mybutton end" id="end">End</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- bottom -->
+    <script src="script.js"></script>
+  </body>
+</html>
